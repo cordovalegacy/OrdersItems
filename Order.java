@@ -6,7 +6,7 @@ public class Order {
     public boolean isReady;
     public ArrayList<Item> items;
 
-    public Order() {
+    public Order() { // name has to match the class if public is used, can only be one
         items = new ArrayList<>(); // Initialize the ArrayList in the constructor
     }
 

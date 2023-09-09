@@ -47,7 +47,7 @@ public class App {
         order4.isReady = false;
         order4.items.add(item4);
         order4.items.add(item4);
-        order4.isReady = true;
+        order4.isReady = true; //can overwrite fields
 
 
         //Method Calls
